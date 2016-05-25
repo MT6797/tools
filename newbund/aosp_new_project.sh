@@ -3,8 +3,8 @@
 # for clone project
 
 # --------------------------------------------
-BASE_PROJECT=nb6797_6c_m
-NEW_PROJECT=k15ta_a
+BASE_PROJECT=k15ta_a
+NEW_PROJECT=k15tb_a
 PLATFORM=mt6797
 COMPANY=nb
 SHARED_LIB=yes
@@ -101,6 +101,8 @@ ln -s ${BASE_PROJECT} ${NEW_PROJECT}
 #cp vendor/google/products/${BASE_PROJECT}/ vendor/google/products/${NEW_PROJECT}/ -rf
 
 #only k15tb_a modem
-#ln -s vendor/mediatek/proprietary/modem/nb6797_5M_OM_lwctg_k15ta_a/ vendor/mediatek/proprietary/modem/nb6797_5M_OM_lwctg_k15tb_a
+#cd vendor/mediatek/proprietary/modem/
+#ln -s nb6797_5M_OM_lwctg_k15ta_a/ nb6797_5M_OM_lwctg_k15tb_a
+
 echo "clone android end"
 # --------------------------------------------
